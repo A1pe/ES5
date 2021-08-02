@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="kr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<script>
+			// var exam = new Object();
+			// exam.kor = 30;
+			// exam.eng = 50;
+			// exam.math = 100;
+
+			var exam = {
+				kor: 40,
+				math: 60,
+			};
+			exam.eng = 100;
+			exam["com"] = 200;
+
+			var key = "com";
+			var keyyys = exam.kor;
+
+			console.log(exam.kor + exam.math + exam.eng + exam["com"]);
+			console.log(key);
+			console.log(keyyys);
+
+			console.log(exam[key]);
+		</script>
+	</body>
+</html>
