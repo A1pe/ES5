@@ -4,7 +4,11 @@ body {
   align-items: center;
   justify-content: center;
 }
-.notice-list, tr, td{
+.notice-list,
+tr,
+td {
   border: 1px solid tomato;
-  
+}
+#target {
+  background-color: dodgerblue;
 }

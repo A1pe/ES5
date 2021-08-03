@@ -1,97 +1,97 @@
 <!DOCTYPE html>
 <html lang="kr">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="stylesheet" href="css/style.css" />
-		<script script src="JS/javascript-dom.js"></script>
-	</head>
-	<body>
-		<section>
-			<h1>EX:1 계산기 프로그램</h1>
-			<div>
-				<input id="txt-x" type="text" placeholder="0" dir="rtl" />
-				+
-				<input id="txt-y" type="text" placeholder="0" dir="rtl" />
-				<input id="btn-add" type="button" value="=" />
-				<input id="txt-result" type="text" value="0" readonly dir="rtl" />
-			</div>
-		</section>
-		<section id="section2">
-			<h1>EX:2 노드 엘리먼트 선택법 개선</h1>
-			<div>
-				<input type="text" placeholder="0" dir="rtl" />
-				+
-				<input type="text" placeholder="0" dir="rtl" />
-				<input type="button" value="=" />
-				<input type="text" value="0" readonly dir="rtl" />
-			</div>
-		</section>
-		<section id="section3">
-			<h1>EX:3 Selectors API level 1</h1>
-			<div>
-				<input type="text" placeholder="0" dir="rtl" />
-				+
-				<input type="text" placeholder="0" dir="rtl" />
-				<input type="button" value="=" />
-				<input type="text" value="0" readonly dir="rtl" />
-			</div>
-		</section>
-		<section id="section4">
-			<h1>EX:4 ChildNodes를 이용한 노드선택</h1>
-			<div class="box">
-				<input />
-				<input />
-			</div>
-		</section>
-		<section id="section5">
-			<h1>EX:5 Element Node의 attribute 변경</h1>
-			<div>
-				<input />
-				<input type="button" value="변경하기" />
-			</div>
-			<div>
-				<img />
-			</div>
-		</section>
-		<section id="section6">
-			<h1>EX-6 노드조작: 메뉴추가(createTextNode, Element)</h1>
-			<div>
-				<input class="title-input" name="title" />
-				<input type="button" class="add-button" value="추가" />
-				<input type="button" class="del-button" value="삭제" />
-			</div>
-			<ul class="menu-list"></ul>
-		</section>
-		<section id="section7">
-			<h1>Ex7-노드 복제와 템플릿 태그</h1>
-			<div>
-				<input type="button" class="clone-button" value="복제" />
-				<input type="button" class="template-button" value="템플릿 복제" />
-			</div>
-			<template>
-				<tr>
-					<td></td>
-					<td><a href=""></a></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-			</template>
-			<table class="notice-list">
-				<thead>
-					<tr>
-						<td>번호</td>
-						<td>제목</td>
-						<td>작성일</td>
-						<td>작성자</td>
-						<td>조회수</td>
-					</tr>
-				</thead>
-				<tbody>
-					<!--
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script script src="JS/javascript-dom.js"></script>
+  </head>
+  <body>
+    <section>
+      <h1>EX:1 계산기 프로그램</h1>
+      <div>
+        <input id="txt-x" type="text" placeholder="0" dir="rtl" />
+        +
+        <input id="txt-y" type="text" placeholder="0" dir="rtl" />
+        <input id="btn-add" type="button" value="=" />
+        <input id="txt-result" type="text" value="0" readonly dir="rtl" />
+      </div>
+    </section>
+    <section id="section2">
+      <h1>EX:2 노드 엘리먼트 선택법 개선</h1>
+      <div>
+        <input type="text" placeholder="0" dir="rtl" />
+        +
+        <input type="text" placeholder="0" dir="rtl" />
+        <input type="button" value="=" />
+        <input type="text" value="0" readonly dir="rtl" />
+      </div>
+    </section>
+    <section id="section3">
+      <h1>EX:3 Selectors API level 1</h1>
+      <div>
+        <input type="text" placeholder="0" dir="rtl" />
+        +
+        <input type="text" placeholder="0" dir="rtl" />
+        <input type="button" value="=" />
+        <input type="text" value="0" readonly dir="rtl" />
+      </div>
+    </section>
+    <section id="section4">
+      <h1>EX:4 ChildNodes를 이용한 노드선택</h1>
+      <div class="box">
+        <input />
+        <input />
+      </div>
+    </section>
+    <section id="section5">
+      <h1>EX:5 Element Node의 attribute 변경</h1>
+      <div>
+        <input />
+        <input type="button" value="변경하기" />
+      </div>
+      <div>
+        <img />
+      </div>
+    </section>
+    <section id="section6">
+      <h1>EX-6 노드조작: 메뉴추가(createTextNode, Element)</h1>
+      <div>
+        <input class="title-input" name="title" />
+        <input type="button" class="add-button" value="추가" />
+        <input type="button" class="del-button" value="삭제" />
+      </div>
+      <ul class="menu-list"></ul>
+    </section>
+    <section id="section7">
+      <h1>Ex7-노드 복제와 템플릿 태그</h1>
+      <div>
+        <input type="button" class="clone-button" value="복제" />
+        <input type="button" class="template-button" value="템플릿 복제" />
+      </div>
+      <template>
+        <tr>
+          <td></td>
+          <td><a href=""></a></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </template>
+      <table class="notice-list">
+        <thead>
+          <tr>
+            <td>번호</td>
+            <td>제목</td>
+            <td>작성일</td>
+            <td>작성자</td>
+            <td>조회수</td>
+          </tr>
+        </thead>
+        <tbody>
+          <!--
 					<tr>
 						<td>1</td>
 						<td><a href="1">자바스크립트란..</a></td>
@@ -120,9 +120,58 @@
 						<td>newlec</td>
 						<td>0</td>
 					</tr>-->
-				</tbody>
-			</table>
-		</section>
-		<hr />
-	</body>
+        </tbody>
+      </table>
+    </section>
+    <section id="section8">
+      <h1>Ex8-노드 삽입과 바꾸기</h1>
+      <div>
+        <input type="button" class="up-button" value="위로" />
+        <input type="button" class="down-button" value="아래로" />
+      </div>
+      <table class="notice-list">
+        <thead>
+          <tr>
+            <td>번호</td>
+            <td>제목</td>
+            <td>작성일</td>
+            <td>작성자</td>
+            <td>조회수</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="target">
+            <td>1</td>
+            <td><a href="1">자바스크립트란..</a></td>
+            <td>2019-01-25</td>
+            <td>newlec</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              <a href="2">유투브에 끌려다니지 않으려고 했는데....ㅜㅜ..</a>
+            </td>
+            <td>2019-01-25</td>
+            <td>newlec</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><a href="3">기본기가 튼튼해야....</a></td>
+            <td>2019-01-25</td>
+            <td>newlec</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><a href="4">근데 조회수가 ㅜㅜ..</a></td>
+            <td>2019-01-25</td>
+            <td>newlec</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
 </html>
