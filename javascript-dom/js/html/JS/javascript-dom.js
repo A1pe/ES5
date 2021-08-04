@@ -205,3 +205,20 @@ window.addEventListener("load", function () {
   };
   // 버튼 이벤트에 따른 동작요구
 });
+
+window.addEventListener("load", function () {
+  var section = document.querySelector("#section-8-1");
+  var getbtn = section.querySelector(".up-button");
+  var printbtn = section.querySelector(".down-button");
+  var dataURL;
+  getbtn.onclick = function () {
+    dataURL = JSON.parse(datas);
+    window.alert("데이터를 읽었습니다.");
+  };
+  printbtn.onclick = function () {
+    var target = section.children[2];
+    var menus = document.createElement("span");
+    target.append(menus);
+    menus.innerText = dataURL[0];
+  };
+});
